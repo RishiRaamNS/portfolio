@@ -27,23 +27,38 @@ export default function Home() {
           experiences.
         </p>
         <div className="flex text-[#9CA3AF] items-center justify-evenly gap-x-4 mt-6">
-          <button className="px-4 py-1 border flex items-center gap-x-2 text-white border-white rounded-md hover:bg-white hover:text-black">
+          <a
+            href="/Rishi Raam Resume.pdf"
+            download
+            className="px-4 py-1 border flex items-center gap-x-2 text-white border-white rounded-md hover:bg-white hover:text-black"
+          >
             <FaFileDownload />
             Resume
-          </button>
-          <SiGithub fontSize={25} className="hover:text-white cursor-pointer" />
-          <IoIosMail
-            fontSize={35}
-            className="hover:text-white cursor-pointer"
-          />
-          <FaLinkedin
-            fontSize={25}
-            className="hover:text-white cursor-pointer"
-          />
-          <FaXTwitter
-            fontSize={25}
-            className="hover:text-white cursor-pointer"
-          />
+          </a>
+          <a href="https://github.com/RishiRaamNS">
+            <SiGithub
+              fontSize={25}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
+          <a href="mailto:rishiraamns@gmail.com">
+            <IoIosMail
+              fontSize={35}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
+          <a href="www.linkedin.com/in/rishiraam">
+            <FaLinkedin
+              fontSize={25}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
+          <a href="https://x.com/RishiRaamNS">
+            <FaXTwitter
+              fontSize={25}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
         </div>
       </div>
 
@@ -203,6 +218,108 @@ export default function Home() {
                   CGPA: 8.22
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10">
+          <h1 className="font-bold text-3xl mb-6">Projects</h1>
+          <div className="border-l-2 border-[#2d3748] pl-6 py-2">
+            <div className="flex flex-col gap-y-4">
+              <Image
+                src="/99groups-desktop.png"
+                width={300}
+                height={300}
+                alt="99groups"
+                className="rounded-md object-scale-down"
+              />
+              <div>
+                <h1 className="font-medium text-xl md:text-2xl">
+                  99Groups: Real-estate portal in Georgia
+                </h1>
+              </div>
+            </div>
+            <ul className="list-disc text-[#D1D5DB] my-4 pl-4">
+              <li>
+                Engineered a sleek landing page and a full-fledged real estate
+                portal with a robust Admin Panel for 99Groups, facilitating
+                seamless property management and boosting client inquiries by
+                30%.
+              </li>
+              <li className="my-4">
+                Integrated multi-lingual support, leveraging Google Translate
+                and conditional rendering to provide a localized experience in 3
+                languages, expanding the portal’s user base by 25% across
+                different regions.
+              </li>
+
+              <li className="my-4">
+                Leveraged Firebase for real-time updates and secure data
+                management, ensuring seamless data synchronization between the
+                portal and admin panel.
+              </li>
+            </ul>
+            <div>
+              <p className="bg-[#53420E] text-[#EAB308] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Next.js
+              </p>
+              <p className="bg-[#53420E] text-[#EAB308] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Firebase
+              </p>
+              <p className="bg-[#53420E] text-[#EAB308] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                ReactJS
+              </p>
+              <p className="bg-[#53420E] text-[#EAB308] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Vercel
+              </p>
+            </div>
+          </div>
+
+          <div className="border-l-2 border-[#2d3748] mt-10 pl-6 py-2">
+            <div className="flex flex-col gap-y-4">
+              <Image
+                src="/impactenglish.png"
+                width={300}
+                height={300}
+                alt="Impact English"
+                className="rounded-md object-scale-down"
+              />
+              <div>
+                <h1 className="font-medium text-xl md:text-2xl">
+                  Impact English: Landing Page for IELTS Coaching Centre
+                </h1>
+              </div>
+            </div>
+            <ul className="list-disc text-[#D1D5DB] my-4 pl-4">
+              <li>
+                Developed a high-performance landing page for Impact English, an
+                IELTS coaching centre, to boost their online presence and drive
+                student enrolment.
+              </li>
+              <li className="my-4">
+                Implemented a fully responsive layout that led to a 40% increase
+                in mobile traffic and a 25% improvement in session duration
+                across devices.
+              </li>
+
+              <li className="my-4">
+                Leveraged Next.js for server-side rendering, Tailwind CSS for a
+                highly responsive UI, and Firebase for backend services,
+                deployed in Vercel ensuring optimal performance and scalability.
+              </li>
+            </ul>
+            <div>
+              <p className="bg-[#164728] text-[#22C55E] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                ReactJS
+              </p>
+              <p className="bg-[#164728] text-[#22C55E] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Vercel
+              </p>
+              <p className="bg-[#164728] text-[#22C55E] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Firebase
+              </p>
+              <p className="bg-[#164728] text-[#22C55E] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
+                Next.js
+              </p>
             </div>
           </div>
         </div>
