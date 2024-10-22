@@ -7,7 +7,7 @@ import { FaFileDownload } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="py-12 md:pl-40 md:pr-32 flex md:flex-row flex-col items-center md:gap-x-24 overflow-hidden">
-      <div className="md:fixed md:left-36 md:top-12 flex flex-col ml-14 md:ml-0 items-start justify-start md:w-[30vw] md:h-screen">
+      <div className="md:fixed md:left-20 lg:left-36 md:top-12 flex flex-col ml-14 md:ml-0 items-start justify-start md:w-[30vw] md:h-screen">
         <Image
           src={"/rishi.jpg"}
           width={150}
@@ -47,7 +47,7 @@ export default function Home() {
               className="hover:text-white cursor-pointer"
             />
           </a>
-          <a href="www.linkedin.com/in/rishiraam">
+          <a href="https://linkedin.com/in/rishiraam">
             <FaLinkedin
               fontSize={25}
               className="hover:text-white cursor-pointer"
