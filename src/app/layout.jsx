@@ -10,6 +10,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="Rishi Raam" />
+        <meta
+          property="og:description"
+          content="Building the Future, One Line of Code at a Time"
+        />
+        <meta property="og:image" content="/logo.png" />{" "}
+        {/* Add a relevant image here */}
+        <meta property="og:url" content="https://rishiraam.com" />
+      </head>
       <body className={`${inter.className} bg-background text-foreground`}>
         {children}
       </body>
