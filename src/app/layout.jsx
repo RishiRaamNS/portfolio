@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="Building the Future, One Line of Code at a Time"
         />
-        <meta property="og:image" content="/logo.png" />{" "}
+        <meta property="og:image" content="/preview.png" />{" "}
         {/* Add a relevant image here */}
         <meta property="og:url" content="https://rishiraam.com" />
       </head>
