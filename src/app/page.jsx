@@ -142,15 +142,15 @@ export default function Home() {
           <h1 className="font-bold text-3xl mb-6">Experience</h1>
           <div className="pl-6 pb-4 border-l-2 border-[#2d3748]">
             <div className="flex gap-x-4">
-              <Image
+              {/* <Image
                 src="/axolotron.svg"
                 alt="axolotron"
                 width={100}
                 height={100}
-              />
+              /> */}
               <div>
                 <h1 className="font-medium text-xl md:text-2xl">
-                  Software Development Intern
+                  Independent Full-Stack Developer
                 </h1>
                 <p className="text-[#D1D5DB] my-0.5">Coimbatore, India</p>
                 <p className="text-[#9CA3AF] text-sm">Aug 2023 - Aug 2024</p>
@@ -158,21 +158,23 @@ export default function Home() {
             </div>
             <ul className="list-disc text-[#D1D5DB] my-4 pl-4">
               <li>
-                Demonstrated proficiency in ReactJS, Next.js, Firebase and
-                Node.js.
+                Led the end-to-end development of 5+ full-stack web applications
+                using React, Next.js, Firebase, and Node.js, delivering scalable
+                solutions that enhanced user engagement and business metrics for
+                diverse clients.
               </li>
               <li className="my-2">
-                Handled the deployment and maintenance of all projects in Vercel
-                and Google Firebase.
+                Engineered scalable cloud infrastructure using Next.js and
+                Firebase, achieving 45% faster application speed and 30%
+                reduction in cloud costs, improving experience for 10k+ active
+                users.
               </li>
               <li className="my-2">
-                Led the Design and Development of 5+ Full-Stack projects
-                handling both Frontend and Backend functionalities.
+                Implemented responsive design principles and secure payment
+                gateways, resulting in 30% improvement in conversion rates and
+                expanded client reach across regions.
               </li>
-              <li className="my2">
-                Collaborated with cross-functional teams, enhancing
-                communication and teamwork skills.
-              </li>
+             
             </ul>
             <div>
               <p className="bg-[#1E3356] text-[#3B82F6] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
