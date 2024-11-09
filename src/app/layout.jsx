@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta property="og:title" content="Rishi Raam" />
+        <meta property="og:title" content="Rishi Raam" /> 
         <meta
           property="og:description"
           content="Building the Future, One Line of Code at a Time"

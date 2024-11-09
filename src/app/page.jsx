@@ -174,7 +174,6 @@ export default function Home() {
                 gateways, resulting in 30% improvement in conversion rates and
                 expanded client reach across regions.
               </li>
-             
             </ul>
             <div>
               <p className="bg-[#1E3356] text-[#3B82F6] inline mx-1 px-3 py-1.5 rounded-full text-[12px] font-medium">
